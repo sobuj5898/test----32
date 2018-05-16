@@ -1,0 +1,86 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Changa+One');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	background: #F2F3F8;
+}
+a:hover { text-decoration: none }
+
+
+.promo-bg{ background-image: url(../image/box.jpg);}
+.promo-bg-1{ background-image: url(../image/box-1.jpg);}
+.promo-bg-2{ background-image: url(../image/box-2.jpg);}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+
+a.single-promo-box {
+    display:  block;
+    position:  relative;
+    height: 250px;
+    transition:  .3s;
+    color: #fff;
+    text-align:  center;
+    font-size: 20px;
+    background-size:  cover;
+    background-position:  center;
+	    margin-bottom: 100px;
+}
+
+a.single-promo-box:hover {
+    box-shadow: 0 0 35px #9c8484;
+	transform: scale(1.03);
+}
+.promo-content {
+    font-size: 20px;
+    text-align:  center;
+    left: 0;
+    bottom: 30px;
+    position:  absolute;
+    width: 100%;
+}
+
+.promo-content h2 {
+    font-size:  50px;
+	font-family: 'Changa One', cursive;
+}
+a.scrollToTop {
+   background: #eab20d;
+    color: #fff;
+    padding: 10px 14px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-decoration: none;
+    right: 23px;
+    bottom: 25px;
+    display: none;
+    position: fixed;
+}
